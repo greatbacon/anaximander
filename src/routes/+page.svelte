@@ -1,6 +1,7 @@
 <script>
 	import { page } from "$app/stores";    
+
+	//TODO install and configure MapBox w/ OpenStreetMap dataset
+	//Set up layer tool for Denver precinct boundaries, neighborhood boundaries, zip codes, state house & state senate
 </script>
 
-<h1>Welcome to Your New Loom Site!</h1>
-<p>Visit <a href="https://hub.{$page.url.hostname}">your new loom instance</a> to get started and register your admin account</p>
