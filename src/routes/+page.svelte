@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Map, TileLayer, Marker, Popup } from 'sveaflet';	
+	import { GeoJSON, Map, TileLayer} from 'sveaflet';
+	import COZIPS from '$lib/static/CDPHE_Open_Data_Colorado_ZIP_Code_Tabulation_Areas_(ZCTA)_2020.json'
 
 </script>
 
@@ -11,6 +12,7 @@
 		}}
 	>
 		<TileLayer url={'https://tile.openstreetmap.org/{z}/{x}/{y}.png'} />
+		<GeoJSON json={COZIPS}/>
 	</Map>
 </div>
 
